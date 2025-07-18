@@ -53,3 +53,50 @@ body{
 .header-right .icon:hover {
     color: #007bff;
 }
+
+.main-content-area {
+    display: flex;
+    padding: 20px 30px;
+    gap: 30px;
+    max-width: 1300px;
+    margin: 20px auto;
+    align-items: flex-start;
+}
+
+.sidebar {
+    flex: 0 0 220px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.sidebar h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.category-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.category-item {
+    padding: 10px 0;
+    font-size: 15px;
+    color: #555;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+}
+
+.category-item:hover {
+    color: #007bff;
+}
+
+.category-display-area {
+    flex-grow: 1;
+}

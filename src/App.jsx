@@ -1,3 +1,4 @@
+import React from 'react'
 import "./App.css";
 import Header from "./components/Header";
 import ProductCard from "./components/ProductCArd";
@@ -8,6 +9,12 @@ function App() {
   return (
     <>
       <Header />
+      <main className="main-content-area">
+        <Sidebar />
+        <div className="product-display-area">
+          <h2>Shop Our Latest Gadgets</h2>
+        </div>
+      </main>
     </>
   );
 }
